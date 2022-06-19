@@ -5,8 +5,9 @@ To Run it Locally
 - virtualenv venv
 - source venv/bin/activate
 - Venv will be activated
-- pip install requirements.txt
+- pip install flask
 - pip freeze > requirements.txt
-- FLASK_APP=run
-- FLASK_ENV=development
+- pip install -r requirements.txt
+- export FLASK_APP=run
+- export FLASK_ENV=development
 - flask run
