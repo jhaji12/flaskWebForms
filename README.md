@@ -17,3 +17,20 @@ To Run it Locally
 ## Flask WebApp with CRUD operations 
 - Home Page
  
+![Screenshot](Screenshots/Home.png)
+
+- Item Page
+
+![Screenshot](Screenshots/Item.png)
+
+- Add New Item Page 
+
+![Screenshot](Screenshots/AddNewItem.png)
+
+- Delete Item
+
+![Screenshot](Screenshots/Delete.png)
+
+- Edit Item
+
+![Screenshot](Screenshots/EditItem.png)
