@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% set active_page='new_item' %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-7 offset-lg-2 mt-5 pt-5">
+       <h1> Add new Item </h1><hr>
+       <form method="POST" action="{{url_for('new_item')}}" enctype="multipart/form-data">
+           {{ form.hidden_tag() }}
+        <div class="form-group">
+            {{ form.title.label }}
+            {{ form.title(class='form-control') }}
+        </div>
+        <div class="form-group">
+            <label> Price </label>
+            <textarea class="form-control" name="price" type="text"></textarea>
+        </div>
+        <div class="form-group">
+            {{ form.category.label }}
+            {{ form.category(class='form-control') }}
+        </div>
+        <div class="form-group">
+            {{ form.subcategory.label }}
+            {{ form.subcategory(class='form-control') }}
+        </div>
+        <div class="form-group">
+            <label>Description</label>
+            <textarea class="form-control" name="description" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+            {{ form.image.label }}<br>
+            {{ form.image }}
+          </div>
+          <hr>
+          {{ form.submit(class="btn btn-primary form-control") }}
+       </form>
+    </div>
+</div>
+{% endblock %}
