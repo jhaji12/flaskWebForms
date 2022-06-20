@@ -1,0 +1,32 @@
+body{
+    padding-top: 40px;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+.navbar-brand {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+   
+}
+.navbar-brand img{
+    border-radius: 45px;
+}
+
+.card-img-top {
+  object-fit: cover;
+}
+.nav-link {
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+}
+.btn {
+    width: 10rem;
+}
+textarea {
+    resize: none;
+  }
